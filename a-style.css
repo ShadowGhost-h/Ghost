@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+/* header */
+.header {
+    width: 1366px;
+    height: 201px;
+    display: inline-block;
+}
+.header img {
+    width: 100%;
+    height:100%;
+}
+
+
+/* nav */
+li a:hover {  
+    background-color: #db7093;  
+    font-weight: bold;  
+    color: white;
+}
+.nav {
+    background-color: #000000a6;
+} 
+ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    overflow: hidden;
+}
+li {  
+    float: left;
+}
+li a {  
+    display: block;  
+    padding: 8px;  
+    background-color: #e7d0d0; 
+    text-decoration: none;
+    color: rgba(18, 24, 24, 0.541);
+}
+.active {  
+    background-color: #58257b;  
+    color: white;
+}
+li.right{
+    float: right;
+}
+ul {  
+    position: -webkit-sticky; 
+    position: sticky;  
+    top: 0;
+}
+
+/* content */
+.content {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    background-color: #37c54aa6;  
+    margin: 0 30% 0 20%;
+}
+.noticable_blog{
+    display: block;
+    height: fit-content;
+    width: 100%;
+}
+.box {
+    margin-bottom: 16px;
+}
+.header_blog {
+    display: block;
+    font-size: 14px;
+    width: 48%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #c73333c2;
+    line-height: 24px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 2px 0 2px 16px;
+    background-color: aqua;
+    margin: 0;
+}
+.content_blog{
+    border: 1px solid #f5054b;
+    border-top: double #f5054b;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.box-category-item {
+    width: 33.33%;
+    padding: 0 16px;
+    border-right: 1px solid #ebebeb;
+}
+.content .noticable_blog .content_blog .box-category-item h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.content .noticable_blog .content_blog .box-category-item .box-category-link-title {
+    text-decoration: none;
+}
+a.box-category-link-title:hover {                                    
+    font-weight: bold;            
+    color: #f5054b;
+}
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+/* footer */
+.footer {}
